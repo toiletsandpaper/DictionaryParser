@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Program
+class DictionaryParser
 {
     
     static void Main(string[] args) {
@@ -10,7 +10,7 @@ class Program
         string[] Phrases = Console.ReadLine().Split(' ');
         
         string Passwords = null;
-        const string DictionaryPath = @"D:/ExampleFolder/ExampleDictinary.lst"; //! Full path to your dictionary
+        const string DictionaryPath = @"D:/ExampleFolder/ExampleDictionary.lst"; //! Full path to your dictionary
         
         try
         {
